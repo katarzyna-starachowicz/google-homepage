@@ -1,0 +1,80 @@
+.user{
+	padding: 15px;
+}
+
+.user div {
+	float: right;
+	padding-right: 20px;
+	font-family: arial,sans-serif;
+    font-size: 13px;
+
+}
+
+.image {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+
+.form{
+	position: relative;
+	width: 1000px;
+	margin: 0 auto;
+	padding-bottom: 35px;
+}
+
+input{
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	border: 1px medium #222;
+	width: 550px;
+	height: 35px;
+	
+}
+
+.szukaj {
+	width: 300px;
+	margin: 0 auto;
+}
+
+#szukaj{
+	float:left;
+	width:48%;
+	height: 35px;
+	line-height: 35px; /*wysokość linii tekstu*/
+	background-color: #EEEEEE;
+	font-family: arial,sans-serif;
+	font-weight: bold;
+    font-size: 13px;
+    text-align: center;
+    color: #777777;
+}
+
+#pusty{
+	float:left;
+	height: 35px;
+	width: 4%;
+	background-color: white;
+}
+
+#szczesliwy{
+	float:left;
+	width:48%;
+	height: 35px;
+	line-height: 35px;
+	background-color: #EEEEEE;
+	font-family: arial,sans-serif;
+	font-weight: bold;
+    font-size: 13px;
+    text-align: center;
+    color: #777777;
+}
+
+.footer{
+	height: 35px;
+	background-color: #777777;
+	position: absolute;
+	bottom: 0;
+
+}
