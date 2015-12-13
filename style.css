@@ -1,31 +1,47 @@
-.user{
-	padding: 15px;
+.user {
+	padding: 15px 0;
+	margin-top: 10px 0;
 }
 
+.user h1 {
+	display: none;
+}
 .user div {
 	float: right;
 	padding-right: 20px;
 	font-family: arial,sans-serif;
     font-size: 13px;
+}
+
+#k {
+	padding: 8px 12px;
+	margin-top: -10px;
+	font-size: 15px;
+	background-color: purple;
+	color: white;
+	font-weight: bold;
+	border-radius: 50%;
+	line-height: -15px;
 
 }
 
 .image {
-	text-align: center;
-	padding-top: 50px;
-	padding-bottom: 10px;
+	display: block;
+	padding: 40px;
+	margin: 200px auto 10px auto;
+	text-indent: -9999px;
+	background: url("https://www.google.pl/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png") center center no-repeat;
 }
 
 .form{
-	position: relative;
+	display: block;
 	width: 1000px;
 	margin: 0 auto;
 	padding-bottom: 35px;
 }
 
-input{
+input[type=text] {
 	display: block;
-	position: relative;
 	margin: 0 auto;
 	border: 1px medium #222;
 	width: 550px;
@@ -33,48 +49,63 @@ input{
 	
 }
 
-.szukaj {
-	width: 300px;
-	margin: 0 auto;
-}
-
-#szukaj{
-	float:left;
-	width:48%;
+input[type=submit] {
+	display: inline;
+	width:150px;
 	height: 35px;
-	line-height: 35px; /*wysokość linii tekstu*/
+	line-height: 25px; /*wysokość linii tekstu*/
 	background-color: #EEEEEE;
 	font-family: arial,sans-serif;
 	font-weight: bold;
     font-size: 13px;
     text-align: center;
     color: #777777;
+    border: none;
 }
 
-#pusty{
-	float:left;
-	height: 35px;
-	width: 4%;
-	background-color: white;
+input[type=submit]:hover {
+	border-color: #999;
+	border-width: 3px;
+	color: #404040;
 }
 
-#szczesliwy{
-	float:left;
-	width:48%;
+.center {
+	display: block;
+	margin: 10px auto 0 auto;
+	width: 550px;
+}
+
+footer {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
 	height: 35px;
-	line-height: 35px;
+	width: 100%;
 	background-color: #EEEEEE;
-	font-family: arial,sans-serif;
-	font-weight: bold;
-    font-size: 13px;
-    text-align: center;
-    color: #777777;
-}
-
-.footer{
-	height: 35px;
-	background-color: #777777;
 	position: absolute;
+	right: 0;
+	margin-right: 0;
+	left: 0;
+	margin-left: 0;
 	bottom: 0;
+	margin-bottom: 0;
+}
 
+li {
+	display: inline;
+	padding: 10px;
+	font-family: arial,sans-serif;
+    font-size: 13px;
+    text-align: center;
+    color: #777777;
+}
+
+li:nth-child(-n+4) {
+	float: left;
+}
+
+li:nth-child(n+4) {
+	float: right;
 }
